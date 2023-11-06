@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2? familia= Montserrat:wght@100;200 &familia= Roboto:wght@300;900 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h5 {
+  font-family: "Montserrat";
+}
+
+/* centrar el contenido verticalmente en boostrap */
+.vertical-center {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  text-align: center;
+  width: 100px;
+}
+
+.hero {
+  display: flex;
+  background-color: rgb(1, 1, 71);
+  align-items: center;
+  padding: 1rem 20%;
+  color: white;
+}
+.hero .hero-tit {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0rem;
+}
+.hero .hero-text {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+.hero .btn {
+  background-color: white;
+  padding: 2rem;
+  color: black;
+  margin: 2rem;
+}
+
+.puente .puente-contai {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  gap: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+.puente .puente-text {
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 2rem;
+  gap: 1rem;
+  text-align: center;
+  background-color: rgb(70, 70, 70);
+}
+.footer color:antiquewhite .footer-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.galeria {
+  padding-block: 2rem;
+}
+.galeria .galeria-tit {
+  text-align: center;
+  padding-block: 2rem;
+  font-size: 3rem;
+  color: rgb(1, 1, 71);
+}
+.galeria .galeria-container {
+  display: flex;
+  max-width: 1000px;
+  margin-inline: auto;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.galeria .foto {
+  width: 100%;
+}
+.galeria .foto img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contenedor_qs {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.contenedor_qs .grilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor_qs .quienes {
+  background-color: aquamarine;
+}
+.contenedor_qs .equipo {
+  background-color: blue;
+}
+.contenedor_qs .hacemos {
+  background-color: blueviolet;
+}
+.contenedor_qs .insfractructura {
+  background-color: brown;
+}
+.contenedor_qs .columna {
+  background-color: rgb(205, 204, 204);
+}
+
+.titulo {
+  text-align: center;
+  padding-block: 2rem;
+  font-size: 3rem;
+  color: rgb(1, 1, 71);
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    display: flex;
+    background-color: rgb(1, 1, 71);
+    align-items: center;
+    padding: 1rem 1rem;
+    color: white;
+  }
+}
+@media (max-width: 1000px) {
+  .puente-contai {
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    gap: 2rem;
+    text-align: center;
+    padding: 1rem;
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .contenedor_qs {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=main.css.map */

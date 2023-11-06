@@ -1,0 +1,32 @@
+.contenedor_qs {
+    height: 100vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: 1fr 1fr;
+     .grilla {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .quienes{
+         background-color: aquamarine;
+     }
+     
+     .equipo{
+         background-color: blue;
+     }
+     
+     .hacemos{
+         background-color: blueviolet;
+     }
+     
+     .insfractructura {
+         background-color: brown;
+     }
+ 
+     .columna{ 
+         background-color: rgb(205, 204, 204);
+     }   
+ 
+ }

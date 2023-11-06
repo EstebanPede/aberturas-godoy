@@ -1,0 +1,37 @@
+.hero { 
+    display: flex;
+    background-color: $colorprincipal ;
+    align-items: center;
+    padding:  1rem 20%;
+    color: white;
+    .hero-tit { 
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        padding: 1rem 0rem;
+    }
+    .hero-text {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+    .btn { 
+        background-color: white;
+        padding : 2rem ;
+        color: black;
+        margin: 2rem ;
+    }
+    
+}   
+
+.puente {
+    .puente-contai {
+        display: flex;
+        align-items: center;
+        margin-inline: auto;
+        gap: 2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .puente-text {
+        padding: 1rem;
+    }
+}
