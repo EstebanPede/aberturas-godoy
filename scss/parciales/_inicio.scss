@@ -18,6 +18,10 @@
         padding : 2rem ;
         color: black;
         margin: 2rem ;
+        transition: all 1s;
+    }
+    .btn:hover{
+        background-color: aqua;
     }
     
 }   
@@ -34,4 +38,27 @@
     .puente-text {
         padding: 1rem;
     }
+    .p1{
+        -webkit-animation:roll-in-left .6s ease-out both;
+        animation:roll-in-left .6s ease-out both;
+        animation-delay: 0.5s;
+    }
+    .p1:hover{
+        background-color: rgb(214, 214, 214);
+    }
+    .p2{
+        animation:roll-in-right .6s ease-out both;
+        animation-delay: 0.5s;
+    }
+    
+    .p2:hover{
+        background-color: rgb(214, 214, 214);
+    }
+
 }
+
+// animista
+ @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+
+
+@keyframes roll-in-right{0%{transform:translateX(800px) rotate(540deg);opacity:0}100%{transform:translateX(0) rotate(0deg);opacity:1}}

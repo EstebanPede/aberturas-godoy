@@ -15,6 +15,16 @@ h1,h2 ,h3 ,h4 ,h5, h5 {
     font-family: 'Montserrat';
 }
 
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main{
+    flex-grow: 1;
+}
+
 /* centrar el contenido verticalmente en boostrap */
 .vertical-center { 
     min-height: 50vh; 
