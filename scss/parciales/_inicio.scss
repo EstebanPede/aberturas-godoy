@@ -54,8 +54,27 @@
     .p2:hover{
         background-color: rgb(214, 214, 214);
     }
-
+    
 }
+.fondo{
+    background-color: rgb(206, 206, 206);
+    .num{
+        font-size: 70px;
+        font-weight: bold;
+      }
+      .tex{
+        font-size: 20px;
+      }
+      .tit{
+        font-size: 40px;
+        color: blue;
+      }
+  }
+
+
+  
+
+  
 
 // animista
  @-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
