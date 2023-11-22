@@ -72,6 +72,9 @@ h1, h2, h3, h4, h5, h5 {
   text-align: center;
   padding: 1rem;
 }
+.puente .img {
+  height: 300px;
+}
 .puente .puente-text {
   padding: 1rem;
 }
@@ -229,6 +232,9 @@ h1, h2, h3, h4, h5, h5 {
   padding-block: 2rem;
   font-size: 3rem;
   color: rgb(1, 1, 71);
+}
+.fondoca{
+  background-color: rgb(200, 200, 200);
 }
 
 @media (max-width: 1000px) {
